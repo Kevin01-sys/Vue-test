@@ -1,10 +1,11 @@
 <script setup>
 import { ref } from 'vue'
-import HelloWorld from './components/Form.vue'
+import FormRegister from './components/Form.vue'
+import Fecth from './components/Fecth.vue'
 </script>
 
 <template>
-  <HelloWorld/>
+  <FormRegister/>
   <h1>Usando componentes</h1>
-  <HelloWorld/>
+  <Fecth/>
 </template>
